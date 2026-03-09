@@ -1,25 +1,25 @@
 class Remi < Formula
   desc "Your personal commit journal"
   homepage "https://github.com/ogxd/remi"
-  version "0.2.1"
+  version "0.2.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ogxd/remi/releases/download/v0.2.1/remi-aarch64-apple-darwin.tar.xz"
-      sha256 "ccee5c8076cd53244d2495d1a4ba6cc8326a5aa4d0f941f4fad6f4c678454b67"
+      url "https://github.com/ogxd/remi/releases/download/v0.2.2/remi-aarch64-apple-darwin.tar.xz"
+      sha256 "328181fdc9bfdad667c5df70c057ab52a2770e973c915b23d9405153629c00b5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ogxd/remi/releases/download/v0.2.1/remi-x86_64-apple-darwin.tar.xz"
-      sha256 "bda07c0a956ec56dee8809b24609a9910230dc1fdf4944a47953eae12c8938ec"
+      url "https://github.com/ogxd/remi/releases/download/v0.2.2/remi-x86_64-apple-darwin.tar.xz"
+      sha256 "6a13fd44b7a007a57b429971e35df4e3eb9b4d418d989f6d28e104c6802a2df9"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ogxd/remi/releases/download/v0.2.1/remi-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "99e42c7071c4f8bcdd557fec514d6100de7be9a91d59d18079ffe6f3d365686b"
+      url "https://github.com/ogxd/remi/releases/download/v0.2.2/remi-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2907022e4a7dafa83c607ce6ce2d4dff3df7795a2c8fdcd72fe6a61ac5aa3159"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ogxd/remi/releases/download/v0.2.1/remi-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0b4ab1e2e556e218bb432bfd449d2d2bfc55327f5532ab070c655f2ac81f1119"
+      url "https://github.com/ogxd/remi/releases/download/v0.2.2/remi-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "fe9411b9b5c229d615ab0cc2cdf811e63d0cacfc4b9c745d339b0fc3e2ffa683"
     end
   end
   license "MIT"
